@@ -1,6 +1,6 @@
 # Basic Spring JDBC Trainer
 
-Implements an in-memory, HSQLDB database application using different foods as data in Spring using JdbcTemplate and either DataSource or EmbeddedDatabaseBuilder to pull single columns from rows.
+Implements an in-memory, HSQLDB database application using different foods as data in Spring using JdbcTemplate and either DataSource/Initializer or EmbeddedDatabaseBuilder to pull single columns from rows.
 
 ### Application-Server:
 Uses embedded Tomcat server and @AnnotationConfigWebApplicationContext to display food types to the localhost in the browser.
